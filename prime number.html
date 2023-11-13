@@ -1,0 +1,26 @@
+<html>
+<head>
+<body>
+<script>
+let m=0;
+let n = prompt("Enter a number: ");
+let prime=0;
+m=n/2;
+for(i=2;i<m;i++)
+{
+if(n%i==0)
+{
+console.log("Number is not Prime");
+document.write("It is  not a Prime Number");
+prime=1;
+break;
+}
+}
+if(prime==0)
+{
+console.log("Number is Prime");
+document.write("It is a Prime Number");
+}
+</script>
+</body>
+</html>

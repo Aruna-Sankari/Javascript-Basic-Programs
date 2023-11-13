@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Armstrong Number</title>
+</head>
+<body>
+<script>
+let n=parseInt(prompt("Enter the number"));
+let sum=0;
+let tem=n;
+while(n!=0){
+let rem=n%10;
+sum+=rem*rem*rem;
+n=~~(n/10);
+}
+if(sum===tem){
+console.log("This is a Armstrong Number");
+document.write("This is a Armstrong Number");
+}
+else{
+console.log("This is not a Armstrong number");
+document.write("This is  not  a Armstrong Number");
+}
+</script>
+</body>
+</html>
